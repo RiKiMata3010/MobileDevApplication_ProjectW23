@@ -11,6 +11,8 @@
 		F53DB49E29CBDECA006E6DA3 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53DB49D29CBDECA006E6DA3 /* ListRowView.swift */; };
 		F53DB4A029CBE16D006E6DA3 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53DB49F29CBE16D006E6DA3 /* AddView.swift */; };
 		F584890029CC97E900FD4AD2 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58488FF29CC97E900FD4AD2 /* ListViewModel.swift */; };
+		F584890229CCCA4400FD4AD2 /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F584890129CCCA4400FD4AD2 /* NoItemsView.swift */; };
+		F584890429CCD22900FD4AD2 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F584890329CCD22900FD4AD2 /* NavigationBarView.swift */; };
 		F5C0DBE429CC1A2800250514 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C0DBE329CC1A2800250514 /* ItemModel.swift */; };
 		F5F7D58929A54E2A00D7F4AD /* MobileDevApplication_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F7D58829A54E2A00D7F4AD /* MobileDevApplication_ProjectApp.swift */; };
 		F5F7D58D29A54E2B00D7F4AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5F7D58C29A54E2B00D7F4AD /* Assets.xcassets */; };
@@ -22,6 +24,8 @@
 		F53DB49D29CBDECA006E6DA3 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
 		F53DB49F29CBE16D006E6DA3 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		F58488FF29CC97E900FD4AD2 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		F584890129CCCA4400FD4AD2 /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
+		F584890329CCD22900FD4AD2 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		F5C0DBE329CC1A2800250514 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		F5F7D58529A54E2A00D7F4AD /* MobileDevApplication_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileDevApplication_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F7D58829A54E2A00D7F4AD /* MobileDevApplication_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDevApplication_ProjectApp.swift; sourceTree = "<group>"; };
@@ -46,6 +50,8 @@
 				F53DB49B29CBDD03006E6DA3 /* ListView.swift */,
 				F53DB49D29CBDECA006E6DA3 /* ListRowView.swift */,
 				F53DB49F29CBE16D006E6DA3 /* AddView.swift */,
+				F584890129CCCA4400FD4AD2 /* NoItemsView.swift */,
+				F584890329CCD22900FD4AD2 /* NavigationBarView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -175,9 +181,11 @@
 			files = (
 				F5C0DBE429CC1A2800250514 /* ItemModel.swift in Sources */,
 				F53DB4A029CBE16D006E6DA3 /* AddView.swift in Sources */,
+				F584890429CCD22900FD4AD2 /* NavigationBarView.swift in Sources */,
 				F584890029CC97E900FD4AD2 /* ListViewModel.swift in Sources */,
 				F5F7D58929A54E2A00D7F4AD /* MobileDevApplication_ProjectApp.swift in Sources */,
 				F53DB49C29CBDD03006E6DA3 /* ListView.swift in Sources */,
+				F584890229CCCA4400FD4AD2 /* NoItemsView.swift in Sources */,
 				F53DB49E29CBDECA006E6DA3 /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
