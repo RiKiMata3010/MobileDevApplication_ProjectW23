@@ -15,6 +15,9 @@ struct MobileDevApplication_ProjectApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView{
+                WelcomeView()
+                SignInView()
+                SignUpView()
                 ListView()
             }
             .environmentObject(listViewModel)

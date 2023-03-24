@@ -13,6 +13,9 @@
 		F584890029CC97E900FD4AD2 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58488FF29CC97E900FD4AD2 /* ListViewModel.swift */; };
 		F584890229CCCA4400FD4AD2 /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F584890129CCCA4400FD4AD2 /* NoItemsView.swift */; };
 		F584890429CCD22900FD4AD2 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F584890329CCD22900FD4AD2 /* NavigationBarView.swift */; };
+		F584890629CE248000FD4AD2 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F584890529CE248000FD4AD2 /* WelcomeView.swift */; };
+		F584890829CE261F00FD4AD2 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F584890729CE261F00FD4AD2 /* SignInView.swift */; };
+		F584890A29CE29E400FD4AD2 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F584890929CE29E400FD4AD2 /* SignUpView.swift */; };
 		F5C0DBE429CC1A2800250514 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C0DBE329CC1A2800250514 /* ItemModel.swift */; };
 		F5F7D58929A54E2A00D7F4AD /* MobileDevApplication_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F7D58829A54E2A00D7F4AD /* MobileDevApplication_ProjectApp.swift */; };
 		F5F7D58D29A54E2B00D7F4AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5F7D58C29A54E2B00D7F4AD /* Assets.xcassets */; };
@@ -26,6 +29,9 @@
 		F58488FF29CC97E900FD4AD2 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		F584890129CCCA4400FD4AD2 /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
 		F584890329CCD22900FD4AD2 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		F584890529CE248000FD4AD2 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		F584890729CE261F00FD4AD2 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		F584890929CE29E400FD4AD2 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		F5C0DBE329CC1A2800250514 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		F5F7D58529A54E2A00D7F4AD /* MobileDevApplication_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileDevApplication_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F7D58829A54E2A00D7F4AD /* MobileDevApplication_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDevApplication_ProjectApp.swift; sourceTree = "<group>"; };
@@ -52,6 +58,9 @@
 				F53DB49F29CBE16D006E6DA3 /* AddView.swift */,
 				F584890129CCCA4400FD4AD2 /* NoItemsView.swift */,
 				F584890329CCD22900FD4AD2 /* NavigationBarView.swift */,
+				F584890529CE248000FD4AD2 /* WelcomeView.swift */,
+				F584890729CE261F00FD4AD2 /* SignInView.swift */,
+				F584890929CE29E400FD4AD2 /* SignUpView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,8 +192,11 @@
 				F53DB4A029CBE16D006E6DA3 /* AddView.swift in Sources */,
 				F584890429CCD22900FD4AD2 /* NavigationBarView.swift in Sources */,
 				F584890029CC97E900FD4AD2 /* ListViewModel.swift in Sources */,
+				F584890829CE261F00FD4AD2 /* SignInView.swift in Sources */,
+				F584890A29CE29E400FD4AD2 /* SignUpView.swift in Sources */,
 				F5F7D58929A54E2A00D7F4AD /* MobileDevApplication_ProjectApp.swift in Sources */,
 				F53DB49C29CBDD03006E6DA3 /* ListView.swift in Sources */,
+				F584890629CE248000FD4AD2 /* WelcomeView.swift in Sources */,
 				F584890229CCCA4400FD4AD2 /* NoItemsView.swift in Sources */,
 				F53DB49E29CBDECA006E6DA3 /* ListRowView.swift in Sources */,
 			);
