@@ -9,9 +9,7 @@ import SwiftUI
 
 @main
 struct MobileDevApplication_ProjectApp: App {
-    
     @StateObject var listViewModel: ListViewModel = ListViewModel()
-    
     var body: some Scene {
         WindowGroup {
             NavigationView{

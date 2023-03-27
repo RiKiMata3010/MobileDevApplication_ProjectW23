@@ -53,14 +53,14 @@
 		F53DB49A29CBDCE3006E6DA3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F584890529CE248000FD4AD2 /* WelcomeView.swift */,
+				F584890729CE261F00FD4AD2 /* SignInView.swift */,
+				F584890929CE29E400FD4AD2 /* SignUpView.swift */,
 				F53DB49B29CBDD03006E6DA3 /* ListView.swift */,
 				F53DB49D29CBDECA006E6DA3 /* ListRowView.swift */,
 				F53DB49F29CBE16D006E6DA3 /* AddView.swift */,
 				F584890129CCCA4400FD4AD2 /* NoItemsView.swift */,
 				F584890329CCD22900FD4AD2 /* NavigationBarView.swift */,
-				F584890529CE248000FD4AD2 /* WelcomeView.swift */,
-				F584890729CE261F00FD4AD2 /* SignInView.swift */,
-				F584890929CE29E400FD4AD2 /* SignUpView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
