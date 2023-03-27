@@ -13,6 +13,7 @@ struct AddView: View {
     @State var textFieldtext: String = ""
     @State var alertTitle : String = ""
     @State var showAlert : Bool = false
+    @State var selectedDate : Date = Date()
     
     let myColor = #colorLiteral(red: 0.921431005, green: 0.9214526415, blue: 0.9214410186, alpha: 1)
     
@@ -24,7 +25,8 @@ struct AddView: View {
                     .frame(height: 55)
                     .background(Color(myColor))
                     .cornerRadius(10)
-                
+                DatePicker("Select a Due Date", selection: $selectedDate, displayedComponents: .date)
+                DatePicker("Select a Due Time", selection: $selectedDate, displayedComponents: .hourAndMinute)
                 Button(action: saveButton, label: {
                     Text("Save".uppercased())
                         .foregroundColor(.white)
@@ -37,7 +39,7 @@ struct AddView: View {
             }
             .padding(14)
         }
-        .navigationTitle("Add an Item")
+        .navigationTitle("Add a New Task")
         .alert(isPresented: $showAlert, content: getAlert)
     }
     func saveButton(){
