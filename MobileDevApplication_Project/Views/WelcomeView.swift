@@ -16,22 +16,12 @@ struct WelcomeView: View {
                 
                 HStack{
                     Spacer()
-                    NavigationLink(destination: SignInView(), label: {
-                        Text("Sign In")
+                    NavigationLink(destination: AuthView(), label: {
+                        Text("Let's get Started!")
                             .foregroundColor(.white)
                             .font(.headline)
                             .frame(height: 55)
-                            .frame(width: 150)
-                            .background(Color.black)
-                            .cornerRadius(10)
-                    })
-                    Spacer()
-                    NavigationLink(destination: SignUpView(), label: {
-                        Text("Sign Up")
-                            .foregroundColor(.white)
-                            .font(.headline)
-                            .frame(height: 55)
-                            .frame(width: 150)
+                            .frame(width: 300)
                             .background(Color.black)
                             .cornerRadius(10)
                     })

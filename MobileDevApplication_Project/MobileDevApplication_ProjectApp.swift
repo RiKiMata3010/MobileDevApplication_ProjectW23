@@ -6,16 +6,22 @@
 //
 
 import SwiftUI
+import FirebaseCore
 
 @main
 struct MobileDevApplication_ProjectApp: App {
+    
+    init(){
+        FirebaseApp.configure()
+    }
+    
     @StateObject var listViewModel: ListViewModel = ListViewModel()
     var body: some Scene {
         WindowGroup {
             NavigationView{
                 WelcomeView()
-                SignInView()
-                SignUpView()
+                AuthView()
+                MainListView()
                 ListView()
             }
             .environmentObject(listViewModel)
