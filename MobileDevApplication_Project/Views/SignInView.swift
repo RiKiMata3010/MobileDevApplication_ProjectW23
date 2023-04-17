@@ -91,7 +91,6 @@ struct SignInView: View {
                         .frame(width: 350)
                         .background(Color.black)
                         .cornerRadius(10)
-                    NavigationLink(destination: MainListView(), label: {})
                 }
                 .navigationTitle("Log In")
                 .navigationBarHidden(true)
